@@ -10,3 +10,4 @@ Development log entry for day 8
 Development log entry for day 9
 Development log entry for day 10
 Development log entry for day 11
+Development log entry for day 12
