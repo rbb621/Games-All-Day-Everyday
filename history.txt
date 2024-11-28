@@ -16,3 +16,4 @@ Development log entry for day 14
 Development log entry for day 15
 Development log entry for day 16
 Development log entry for day 17
+Development log entry for day 18
