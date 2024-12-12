@@ -1,0 +1,578 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+img, iframe {
+	max-width: 100%;
+}
+
+p {
+	line-height: 1.7em;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+    font-family: "proxima-nova", sans-serif;
+    color: #333;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* NAVBAR SECTION */
+
+.bg-light {
+    background-color: rgba(82,215,56,0.7) !important; 
+}
+
+form.form-inline.my-2.my-lg-0 {
+    display: block;
+}
+
+
+.dropdown-menu.show {
+	width: 100% !important;	
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #333;
+    text-decoration: none;
+    background-color: rgba(82,215,56,0.7) !important; ; 
+}
+
+ .navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #52D738;
+}
+
+.nav-item {
+	margin-right: 24px;
+}
+
+.navbar-nav {
+margin-left: auto;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 3.5rem;
+        padding-left: 0.5rem;
+ }
+
+
+.dropdown-item {
+	color: #333;
+	font-weight: 400;
+/*	text-transform: uppercase;*/
+	letter-spacing: 1.5px;
+}
+
+/* Style for the dropdown container */
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+/* Style for the first-level dropdown */
+
+.dropdown-menu {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Show the first-level dropdown when hovering over the parent */
+
+.nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+
+/* Style for the second-level dropdown (nested dropdowns) */
+
+.dropdown-submenu {
+  position: relative;
+}
+
+/* Hide the second-level dropdown by default */
+
+.dropdown-submenu .dropdown-menu {
+  display: none;
+  left: 100%;
+  top: 0;
+}
+
+/* Show the second-level dropdown on hover */
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Adding a slight delay on the hover */
+
+.nav-item.dropdown:hover > .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+	z-index: 10;
+	animation: fadeIn 0.3s ease-out;
+	margin-top: -8px; /* To fix that weird glitch of the dropdown dissappearing */ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+/*	text-transform: uppercase;*/
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* TITLE SECTION */
+.col-xl-12.logo-center {
+    text-align: center;
+	background: #212329;
+}
+
+
+.tcg-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* CONTENT CONTAINTER SECTION */
+
+.container-fluid, .big-heading {
+	padding: 0;
+	text-align: center;
+}
+
+
+.container-fluid + .twitch  {
+	background-color: #6441A5;
+	color: #f1f1f1;
+	list-style: none;
+	line-height: 3em;
+	content: "\f392";
+}
+
+
+.dropdown-divider-content {
+	border: 1px solid #ccc2c2;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merch img {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	height: 350px;
+}
+
+
+.twitch li {
+	width: 586px;
+    text-align: left;
+    margin: auto;
+}
+
+/* QUOTATION SECTION */
+
+blockquote {
+margin-bottom:-30px;
+position: relative; 
+max-width: 277px; 
+margin: 0 auto; 
+padding-left: 0.4em;
+}
+
+blockquote h3 {
+    font-size:21px;
+}
+
+blockquote h3:before { 
+    content: "\201C";
+    font-size:50px;
+    color:rgba(82,215,56,0.7);
+    top: 1.2em;
+    left: -0.5em; 
+    font-family: 'Georgia'; 
+} 
+blockquote h3:after { 
+    content: "\201D";
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(82,215,56,0.7);
+    position: relative; 
+    bottom: -0.6em;
+    left: 5px; 
+    font-family: 'Georgia'; 
+}
+
+/*CAROUSEL SECTION*/
+
+.carousel-indicators li {
+	margin-bottom: -10px;
+	background-color: rgba(196,248,185,1.00) !important;
+	border-radius: 50%;
+	width: 15px;
+    height: 15px;
+	margin-right: 10px;
+}
+
+
+.carousel-caption {
+    right: 0;
+    left: 0;
+	background-color: rgba(27,27,27,0.80);
+	margin-bottom: -21px;
+}
+
+.carousel-caption p {
+	color: #fff;
+	text-align: center;
+}
+
+.title-cardgame {
+	padding: 40px 0px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	border-radius: 50%;
+	background-color: rgba(82,215,56,1) !important; 
+	padding: 40px;
+}
+
+
+
+/* YOUTUBE TRAILER SECTION */
+
+.youtube-fluid {
+    max-width: 510px;
+    width: 100%;
+}
+
+/* PLAYMATS SECTION */
+
+.description {
+	background-color: #2C2828;
+	border-radius: 8px;
+	margin: 0 16px 24px;
+	padding: 15px;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.description p {
+	color: #fff;
+	background-color: rgb(124 255 99 / 70%);
+	border-radius: 1%;
+	padding: 5%;
+	margin-top: 25px;
+	letter-spacing: 1px;
+}
+
+/* Drop down options size/quantity */
+select {
+	height: 46px;
+	width: 100%;
+	padding: 0px 30px 0px 12px;
+	margin: 0px;
+	border-width: 1px;
+	border-color: rgb(182, 182, 182);
+	font-weight: 400;
+	font-size: 16px !important;
+	margin-bottom: 20px;
+}
+
+/* FOOTER SECTION*/
+
+.footer {
+    background: #212329;
+    padding-top: 2em;
+	margin: 0;
+	padding-bottom: 5px;
+	overflow: hidden;
+	text-align: center;
+	font-style: bold;
+	color: #fff;
+}
+
+.footer .footer-info p {
+	text-align: left;
+	width: 70%;
+	color: #fff;
+}
+
+.footInfofloat-right p {
+	float: right;
+	color: #fff;
+	text-align: left;
+}
+
+.copyright {
+	text-align: center;
+	color: #fff;
+}
+
+ 
+
+/* CONTACT SECTION */
+
+.container-contact {
+    width: 85%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 25px 80px 150px;
+}
+
+.container-contact .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-contact .content .left-side {
+    width: 37%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+
+.container-contact .content .left-side::before {
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+}
+
+.content .left-side .details {
+    margin: 14px;
+    text-align: center;
+}
+
+.content .left-side .details i {
+    font-size: 30px;
+    color: rgba(82,215,56,0.7);
+    margin-bottom: 10px;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+
+.content .left-side .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .left-side .details .text-one, .content .left-side .details .text-two {
+    font-size: 14px;
+    color: var(--lightbrown);
+}
+
+.container-contact .content .right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+
+.content .right-side .topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+}
+
+.right-side .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.right-side .message-box {
+    min-height: 110px;
+}
+
+
+.right-side .input-box input, .right-side .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+
+.content .left-side .details .text-one, .content .left-side .details .text-two {
+    font-size: 14px;
+    color: rgba(0,0,0,1.00);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+	transition: width .5s ease;
+
+}
+
+.link:hover{
+    color: rgba(82,215,56,0.7);
+    text-decoration: none;
+    transition: width .5s ease;
+}
+
+.dropdown-item:active{
+	background-color: rgba(82,215,56,0.7) !important;
+	transition: all .15s;
+}
+
+/* Responsive Mobile/Tablet */
+
+@media (max-width: 1200px) {
+	/* NAV SECTION */
+.dropdown-menu.show {
+	width: 50%;
+	margin: auto;
+	}
+}
+
+@media (max-width: 768px) {
+	
+/*FOOTER SECTION*/
+	
+.footInfofloat-right p {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+	width: 250px;
+	float: none !important;
+}	
+	
+.footer-info {
+	color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+	width: 250px;
+	float: none !important;
+}
+	
+.footInfofloat-right {
+	padding-right: 5px;
+}
+	
+.container-contact .content .left-side {
+		width: 40%;
+	}
+	
+	.container-contact {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 25px 25px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 25px 9px 150px;
+}
+}
+
+
+@media (max-width: 576px) {
+	
+/* SEARCH BAR*/
+form.form-inline.my-2.my-lg-0  {
+	display: inline !important;
+	width: auto !important;
+}
+	
+	
+/*CONTACT SECTION*/
+.form-control {
+	display: inline !important;
+	width: auto !important;
+}
+	
+.container-contact .content .right-side {
+/*	margin-left: 10px;*/
+	width: 75%;
+}
+	
+.container-contact .content .left-side::before {
+	display: none;
+}
+	
+.container-contact .content .left-side {
+	width: 100%;
+/*    margin-left: -20px;*/
+}
+	
+	
+.container-contact .content {
+		display: block;
+}
+	
+	
+.container-contact {
+	width: 100%;
+	margin: 25px 0px 150px;
+}
+
+	
+/*DISCORD SECTION*/
+	
+.twitch li {
+	width: 400px;
+}
+	
+/*CAROUSEL SECTION*/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+padding: 30px;
+}
+}
+
+
+
+
+

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name= "description" content="All aboard! Let's hop on a train to travel across the USA. The longer the routes, the more options to travel from state to state. Be sure to avoid any and all detours, while blocking their path!">
+	<meta name="keywords" content="Ticket to Ride, Roads, Games All Day EveryDay, USA, Europe, Cities, Trains, How to Play">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Ticket to Ride</title>
+	<!-- TemplateEndEditable -->
+	<!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+	  
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+	  
+  <!--Favicon-->
+<link rel="icon" href="../images/favicon/logofavicon.png" sizes="32x32">
+	  
+    <!-- Bootstrap -->
+	<link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+	  
+	  <!-- CSS -->
+	 <link href="../styles.css" rel="stylesheet" type="text/css">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+  <body>
+ 
+  	<!-- body code goes here -->
+	  <div class="container-fluid">
+	  <div class="row">
+	  <div class="col-xl-12 logo-center">
+		 <a href="../index.html" class="navbar-brand">
+				<img src= "../images/logo/logo.png" class="img-fluid" alt="cardshop logo">&nbsp;</a> 
+		  </div>
+		  </div>
+		  
+	  </div>
+	  
+	  <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light"> 
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> 
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+              
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"> 
+					  <a class="nav-link" href="../index.html">
+						  Home
+						  <span class="sr-only"></span>
+					  </a>
+					</li>
+					
+                  <li class="nav-item dropdown"> 
+					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+						  The Store 
+					  </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+			<a class="dropdown-item" href="../store/discord.html">Discord</a> 
+           <a class="dropdown-item" href="#">Apply now!</a></div>
+         </li>
+					
+	<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trading Card Games</a>
+
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">   <!-- Second Level Dropdown (Nested) --> 
+		<li class="dropdown-submenu"> 
+			<a class="dropdown-item dropdown-toggle" href="#">Disney Lorcana</a> 
+		<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="#">Disney Lorcana Pre-Release Dec. 1st</a></li> 
+		<li>
+			<a class="dropdown-item" href="../tcg/disney-lorcana-tournaments.html">Disney Lorcana Tournaments</a></li> </ul> 
+		</li> 
+		
+		
+		<li class="dropdown-submenu"> <a class="dropdown-item dropdown-toggle" href="#">Magic the Gathering</a> 
+			<ul class="dropdown-menu"> 
+				<li>
+					<a class="dropdown-item" href="#">Magic the Gathering Pre-Release Dec. 8th</a>
+				</li> 
+				<li>
+					<a class="dropdown-item" href="#">Magic the Gathering Tournaments</a>
+				</li> 
+			</ul> 
+		</li>
+		
+		
+		<li class="dropdown-submenu"> <a class="dropdown-item dropdown-toggle" href="#">One Piece</a> 
+			<ul class="dropdown-menu"> 
+				<li>
+					<a class="dropdown-item" href="#">One Piece Pre-Release Dec. 2nd</a>
+				</li> 
+			<li>
+				<a class="dropdown-item" href="#">One Piece Tournaments</a>
+			</li> 
+		</ul> 
+	</li>
+		
+		<li class="dropdown-submenu"> <a class="dropdown-item dropdown-toggle" href="#">Pokemon Trading Card Game</a> <ul class="dropdown-menu"> 
+		<li>
+			<a class="dropdown-item" href="#">Pokemon TCG Pre-Release Dec. 8th</a>
+		</li> 
+			<li>
+				<a class="dropdown-item" href="../tcg/pokemon-tournaments.html">Pokemon TCG Tournaments</a>
+			</li> 
+	</ul> 
+</li>
+		
+	<li class="dropdown-submenu"> 
+		<a class="dropdown-item dropdown-toggle" href="#">Yu-Gi-Oh</a> 
+			<ul class="dropdown-menu"> 
+				<li>
+					<a class="dropdown-item" href="#">Yu-Gi-Oh Pre-Release Dec. 9th</a>
+				</li> 
+				<li>
+					<a class="dropdown-item" href="../tcg/yugioh-tournaments.html">Yu-Gi-Oh Tournaments</a>
+				</li> 
+			</ul> 
+		</li>
+	</ul>					
+  </li>
+					
+		<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Board Games</a>
+
+	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">   <!-- Second Level Dropdown (Nested) --> 
+		<li class="dropdown-submenu"> 
+			<a class="dropdown-item dropdown-toggle" href="#">Classic Board Games</a> 
+		<ul class="dropdown-menu">
+			<li>
+			<a class="dropdown-item" href="#">Chess</a></li> 
+		<li>
+			<a class="dropdown-item" href="#">Clue</a>
+			</li> 
+		<li>
+			<a class="dropdown-item" href="#">Monopoly</a>
+			</li> 
+				<li>
+			<a class="dropdown-item" href="#">Scrabble</a>
+			</li> 
+			</ul> 
+		</li> 
+		
+		
+		<li class="dropdown-submenu"> <a class="dropdown-item dropdown-toggle" href="#">Modern Board Games</a> 
+			<ul class="dropdown-menu"> 
+				<li>
+					<a class="dropdown-item" href="../board-games/clank.html">Clank! Catacombs</a>
+				</li> 
+				<li>
+					<a class="dropdown-item" href="#">Ethnos</a>
+				</li> 
+				<li>
+					<a class="dropdown-item" href="../board-games/settlers-of-catan.html">Settlers of Catan</a>
+				</li> 
+				<li>
+					<a class="dropdown-item active" href="../board-games/ticket-to-ride.html">Ticket to Ride</a>
+				</li> 
+				<li>
+					<a class="dropdown-item" href="#">Wingspan</a>
+				</li> 
+			</ul> 
+		</li>
+
+	</ul>
+			
+		           <li class="nav-item dropdown"> 
+					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+						  Accessories
+					  </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown5"> 
+                      <a class="dropdown-item" href="#">Binder</a>
+                      <a class="dropdown-item" href="#">Dice</a>
+					  <a class="dropdown-item" href="../accessories/playmats.html">Playmats</a>
+					  <a class="dropdown-item" href="#">Puzzles</a>
+					  <a class="dropdown-item" href="#">Sleeves</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Snacks</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Figurines</a>
+					<a class="dropdown-item" href="#">Funko Pops</a>
+					<a class="dropdown-item" href="#">Plushies</a>
+				</div>  
+               </li>
+			</li>
+				
+
+					
+
+	
+				 <li class="nav-item"> <a class="nav-link" href="../contact.html">Contact<span class="sr-only"></span></a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 28px; height: 28px; margin: auto;"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+	</div>
+	
+	<!-- TemplateBeginEditable name="BoardGame-Header" -->
+	<div class="container-fluid">
+	  <h1 class="big-heading pt-5">TICKET TO RIDE</h1>
+	<img src="../images/boardgame_img/ticket-to-ride/tickettoride.png" alt="Ticket to Ride - USA">
+	    </div>  
+	<!-- TemplateEndEditable -->
+	
+	
+	<!-- TemplateBeginEditable name="About-BoardGame" -->
+	<div class="container pt-5 pb-5">
+		<div class="row">
+		
+		<div class="col-lg-6">
+		<h2>About Ticket to Ride</h2>
+			<p>
+				Ticket to Ride is a cross-country train adventure in which players collect and play matching train cards to claim railway routes connecting cities throughout North America.			
+			</p>
+			
+			<p>
+				The longer the routes, the more points they earn.
+			</p>
+			
+			<p>
+				Additional points come to those who can fulfill their Destination Tickets by connecting two distant cities, and to the player who builds the longest continuous railway.
+			</p>
+			
+			<p>
+				With elegantly simple gameplay, Ticket to Ride can be learned in under 15 minutes. Players collect cards of various types of train cars they then use to claim railway routes in North America. The longer the routes, the more points they earn. Additional points come to those who fulfill Destination Tickets – goal cards that connect distant cities; and to the player who builds the longest continuous route.
+			</p>
+	</div>
+			
+	<div class="col-lg-6">
+		<img class="tcg-logo" src="../images/boardgame_img/ticket-to-ride/ticket_to_ride_characters.png" alt="Character">
+		<blockquote style="max-width: 289px"><h3>Let's travel the USA!</h3></blockquote>
+
+			</div>
+			</div>
+		</div>
+	<!-- TemplateEndEditable -->
+
+	<div class="dropdown-divider-content"></div>
+	
+	<!-- TemplateBeginEditable name="Rules-BoardGame" -->
+	<div class="container pt-5 pb-5">
+		<h2>Rules of Ticket to Ride</h2>
+		<div class="row">
+			<div class="col-lg-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/yPGLlaGrShY?si=gfBMUHwPPZQo4fcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+	<div class="col-lg-6">
+		<p>
+			<strong>Ticket to Ride</strong> is a game that requires strategic thinking, and planning out your routes to deny your opponents from scoring big points
+		</p>
+		<p>
+			To familarize yourself with the rules of <strong>Ticket to Ride</strong>, 
+			<br> watch the <strong>video tutorial</strong> and learn from the best!
+		</p>
+			</div>
+		</div>
+	</div>
+	<!-- TemplateEndEditable -->
+	
+	<!-- TemplateBeginEditable name="BoardGame-Contents" -->
+		<div class="dropdown-divider-content"></div>
+	
+	<div class="container pt-5 pb-5">
+		<div class="row">
+			<div class="col-lg-6">
+				<h3>Ticket to Ride Contents</h3>
+				<li>1 Board map of North American train routes</li>
+				<li>225 Colored Train Cars</li>
+				<li>144 Illustrated cards</li>
+				<li>5 Wooden Scoring Markers</li>
+				<li>1 Rules booklet</li>
+			</div>
+		
+			<div class="col-lg-6">
+				<img src="../images/boardgame_img/ticket-to-ride/tickettoride_map.png" alt="Map">
+			</div>
+		</div>
+	</div>
+	<!-- TemplateEndEditable -->
+	
+	<div class="dropdown-divider-content"></div>
+	
+	<div class="container pt-5 pb-5">
+		<h3>Ticket to Ride: Europe Edition</h3>
+		<div class="row">
+			<div class="col-lg-6">	
+				<br>	
+				<p>
+					<strong>Ticket to Ride:</strong> Europe takes you on a new train adventure across Europe. From Edinburgh to Constantinople and from Lisbon to Moscow, you'll visit great cities of turn-of-the-century Europe. 
+					Like the original Ticket to Ride, the game remains elegantly simple, can be learned in 5 minutes, and appeals to both families and experienced gamers. 
+					Ticket to Ride: Europe is a complete, new game and does not require the original version.
+				</p>
+				
+				<p>
+					More than just a new map, Ticket to Ride: Europe features brand new gameplay elements. Tunnels may require you to pay extra cards to build on them, Ferries require locomotive cards in order to claim them, and Stations allow you to sacrifice a few points in order to use an opponent's route to connect yours. The game also includes larger format cards and Train Station game pieces.
+				</p>
+				
+				<p>
+					<em>The overall goal remains the same:</em> collect and play train cards in order to place your pieces on the board, attempting to connect cities on your ticket cards. Points are earned both from placing trains and completing tickets but uncompleted tickets lose you points. The player who has the most points at the end of the game wins.
+				</p>
+			</div>
+
+			
+			<div class="col-lg-6">
+				<img src="../images/boardgame_img/ticket-to-ride/tickettoride_europe.png" alt="Ticket to Ride - Europe">
+					<br>
+				<div class="description">
+					<p><strong>Details</strong></p>
+					<p><strong>Cost :</strong> &nbsp; $59.99</p>
+		  			<p><strong>Number of players:</strong>&nbsp; 2-5</p>
+					<p><strong>Time :&nbsp; </strong> 30-60 minutes</p>
+					<p><strong>Review Score :&nbsp; </strong> 7.5/10</p>
+					<p><strong>Age Rating :</strong> 8+ or older</p>
+				</div>
+			</div>
+		</div>
+	</div>		
+			  
+	<div class="container-fluid">
+		<div class="footer">
+	  <div class="row">
+		  <div class="col-lg-4 col-md-4 col-sm-12">
+	<div class="footInfofloat-right">
+		  <p class="tcg-logo">
+		  <strong>Hours</strong><br>
+		  Monday-Friday: 10 AM - 7PM <br>
+		  Saturday: 12 PM - 8 PM <br>
+		  Sunday: 11 AM - 3 PM			  
+		</p>
+	</div>
+
+		  
+		  </div>
+	  <div class="col-lg-4 col-md-4">
+		  <img src= "../images/logo/logo.png" class="img-fluid tcg-logo" alt="cardshop logo">
+		  </div>
+	  <div class="col-lg-4 col-md-4 col-sm-12">
+		  <div class="footer-info">
+		  <p>
+		  <strong>Contact Us!</strong> <br>
+			  rberliant@stu.clcillinois.edu <br>		  
+			  404 Everywhere St.<br>
+			  (555) 555-5555 <br>
+		  </p>
+		</div>
+	
+		  </div>
+			  </div>
+			
+				<div class="col-lg-12">
+		<p class="copyright">@Copyright 2024 Ricky Berliant</p>
+		
+		</div>
+		  </div>
+	  </div>
+
+			
+	  
+	  
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	  
+	  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+	  
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
